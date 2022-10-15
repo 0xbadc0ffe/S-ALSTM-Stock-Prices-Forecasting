@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import numpy as np
 
 
 # MODELS WITHOUT EXTRENAL DATA
@@ -69,6 +68,8 @@ class SALSTM4(nn.Module):
         self.seq_length = seq_length
 
         self.attention_layer = nn.Linear(self.hidden_dim, 1, bias=False)
+        self.mixed_att_weigths = torch.nn.Parameter(torch.randn(1,2))
+        torch.nn.init.xavier_uniform_(self.mixed_att_weigths)
         self.dropout = nn.Dropout(p=dropout_prob)
 
         # LSTM layers
@@ -126,8 +127,13 @@ class SALSTM4(nn.Module):
             print(f"alphat: ",alphat)
         
         #out = self.dropout(out[:, -1, :])                  # NO ATTENTION
-        #out = self.dropout(att_out)                        # FULL ATTENTION
-        out = 0.5*self.dropout(att_out) +0.5*out[:, -1, :]  # MIXED ATTENTION
+        #out = self.dropout(att_out)                        # FULL ATTENTION 
+        #out = 0.5*self.dropout(att_out) +0.5*out[:, -1, :] # MIXED ATTENTION
+        
+        maw = F.softmax(self.mixed_att_weigths, dim=1)      # mixed attention weights
+        if pprint:
+            print("MAW:", maw)
+        out = maw[0,0]*self.dropout(att_out) +maw[0,1]*out[:, -1, :]   # TRAINABLE MIXED ATTENTION
         out = torch.relu(out) 
     
         out_m = self.mean_fc1(out)
