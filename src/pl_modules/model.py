@@ -21,7 +21,7 @@ class MyModel(pl.LightningModule):
         num_layers = self.hparams.num_layers
         dropout_prob = self.hparams.dropout_prob
         self.look_back = self.hparams.look_back
-        attention_mode = "TMA"  #self.hparams.attention_mode #TODO: Debug
+        attention_mode = "A"  #self.hparams.attention_mode #TODO: Debug
 
         #self.model = ALSTM.LSTMModel(input_dim=input_dim, hidden_dim=hidden_dim, layer_dim=num_layers, output_dim=1, dropout_prob=dropout_prob, device="cuda:0")
         self.model = ALSTM.SALSTM4(input_dim=input_dim, seq_length=self.hparams.look_back, hidden_dim=hidden_dim, layer_dim=num_layers, output_dim=1, dropout_prob=dropout_prob, attention_mode=attention_mode, device="cuda:0")
@@ -61,10 +61,10 @@ class MyModel(pl.LightningModule):
         invest_time = 365 #batch.shape[1]
         tax = 0.001
         delay = 0 #365 
-        sperf1, _, _, _, aperf1, _ = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="openaware", predictor=self, do_print=False, delay=delay)
-        sperf2, _, _, _, aperf2, _  = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="taxaware", predictor=self, do_print=False, delay=delay)
-        sperf1ns, _, _, _, aperfns1, _  = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="openaware", predictor=self, do_print=False, delay=delay, st=False)
-        sperf2ns, _, _, _, aperfns2, _ = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="taxaware", predictor=self, do_print=False, delay=delay, st=False)
+        sperf1, _, _, _, aperf1, _, pr_so = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="openaware", predictor=self, do_print=False, delay=delay)
+        sperf2, _, _, _, aperf2, _, pr_st = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="taxaware", predictor=self, do_print=False, delay=delay)
+        sperf1ns, _, _, _, aperfns1, _, pr_do = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="openaware", predictor=self, do_print=False, delay=delay, st=False)
+        sperf2ns, _, _, _, aperfns2, _, pr_dt = metrics.profit_meas(batch, self.look_back, None, budg0=budg0, invest_time=invest_time, tax=tax, strategy=strategy, predictor_mode="taxaware", predictor=self, do_print=False, delay=delay, st=False)
         return {
             "loss": Ed,
             "dloss": Esign,
@@ -76,6 +76,10 @@ class MyModel(pl.LightningModule):
             "APM-s-taxaware": aperf2[-1],
             "APM-d-openaware": aperfns1[-1],
             "APM-d-taxaware": aperfns2[-1],
+            "Prof[%]-s-openaware": pr_so,
+            "Prof[%]-s-taxaware": pr_st,
+            "Prof[%]-d-openaware": pr_do,
+            "Prof[%]-d-taxaware": pr_dt,
         }
 
 
@@ -84,16 +88,20 @@ class MyModel(pl.LightningModule):
         loss = out_step["loss"]
         self.log_dict(
             {
+                "train_APM-s-openaware": out_step["APM-s-openaware"],
+                "train_APM-s-taxaware": out_step["APM-s-taxaware"],
+                "train_APM-d-openaware": out_step["APM-d-openaware"],
+                "train_APM-d-taxaware": out_step["APM-d-taxaware"],
+                "train_Prof[%]-s-openaware": out_step["Prof[%]-s-openaware"],
+                "train_Prof[%]-s-taxaware": out_step["Prof[%]-s-taxaware"],
+                "train_Prof[%]-d-openaware": out_step["Prof[%]-d-openaware"],
+                "train_Prof[%]-d-taxaware": out_step["Prof[%]-d-taxaware"],
                 "train_loss": loss,
                 "train_dir_loss": out_step["dloss"],
                 "train_s-pmetric-openaware": out_step["s-pmetric-openaware"],
                 "train_s-pmetric-taxaware": out_step["s-pmetric-taxaware"],
                 "train_d-pmetric-openaware": out_step["d-pmetric-openaware"],
                 "train_d-pmetric-taxaware": out_step["d-pmetric-taxaware"],
-                "train_APM-s-openaware": out_step["APM-s-openaware"],
-                "train_APM-s-taxaware": out_step["APM-s-taxaware"],
-                "train_APM-d-openaware": out_step["APM-d-openaware"],
-                "train_APM-d-taxaware": out_step["APM-d-taxaware"],
             },
             on_step=True,
             on_epoch=True,
@@ -106,16 +114,20 @@ class MyModel(pl.LightningModule):
         loss = out_step["loss"]
         self.log_dict(
             {
-                "val_loss": loss,
-                "val_dir_loss": out_step["dloss"],
+                "val_APM-s-openaware": out_step["APM-s-openaware"],
+                "val_APM-s-taxaware": out_step["APM-s-taxaware"],
+                "val_APM-d-openaware": out_step["APM-d-openaware"],
+                "val_APM-d-taxaware": out_step["APM-d-taxaware"],
+                "val_Prof[%]-s-openaware": out_step["Prof[%]-s-openaware"],
+                "val_Prof[%]-s-taxaware": out_step["Prof[%]-s-taxaware"],
+                "val_Prof[%]-d-openaware": out_step["Prof[%]-d-openaware"],
+                "val_Prof[%]-d-taxaware": out_step["Prof[%]-d-taxaware"],
                 "val_s-pmetric-openaware": out_step["s-pmetric-openaware"],
                 "val_s-pmetric-taxaware": out_step["s-pmetric-taxaware"],
                 "val_d-pmetric-openaware": out_step["d-pmetric-openaware"],
                 "val_d-pmetric-taxaware": out_step["d-pmetric-taxaware"],
-                "val_APM-s-openaware": out_step["APM-s-openaware"],
-                "val_APM-s-taxaware": out_step["APM-s-taxaware"],
-                "val_APM-d-openaware": out_step["APM-d-openaware"],
-                "val_APM-d-taxaware": out_step["APM-d-taxaware"]
+                "val_loss": loss,
+                "val_dir_loss": out_step["dloss"],
             },
             on_step=False,
             on_epoch=True,
@@ -137,7 +149,11 @@ class MyModel(pl.LightningModule):
                 "test_APM-s-openaware": out_step["APM-s-openaware"],
                 "test_APM-s-taxaware": out_step["APM-s-taxaware"],
                 "test_APM-d-openaware": out_step["APM-d-openaware"],
-                "test_APM-d-taxaware": out_step["APM-d-taxaware"]
+                "test_APM-d-taxaware": out_step["APM-d-taxaware"],
+                "test_Prof[%]-s-openaware": out_step["Prof[%]-s-openaware"],
+                "test_Prof[%]-s-taxaware": out_step["Prof[%]-s-taxaware"],
+                "test_Prof[%]-d-openaware": out_step["Prof[%]-d-openaware"],
+                "test_Prof[%]-d-taxaware": out_step["Prof[%]-d-taxaware"],
             },
         )
         return loss

@@ -179,8 +179,10 @@ def profit_meas(test_stock_data, look_back, stock_dict, budg0=1000, invest_time=
         tot_payed += summ_p
         tot_actions += TP+FP
 
+    tot_budg0 = budg0*test_stock_data.shape[0]
+    tot_prof_perc = (torch.sum(budg)-tot_budg0)/tot_budg0*100
+
     if do_print:
-        tot_budg0 = budg0*test_stock_data.shape[0]
         print("\nTot Start Budg:      {:.3f} $".format(tot_budg0)) 
         print(f"Tot Actions:         {tot_actions}")  
         print("Tot Avg Op-profit:   {:.3f} $".format(tot)) 
@@ -203,5 +205,6 @@ def profit_meas(test_stock_data, look_back, stock_dict, budg0=1000, invest_time=
             print(f"Ending Date:         {(list(stock_dict.values())[0]).iloc[split_date+delay+last_day]['date']}\n\n")
 
 
-    return strat_perf, pred_profit, plot_predict, budg, avg_prof_metrics, nor_avg_prof_met
+
+    return strat_perf, pred_profit, plot_predict, budg, avg_prof_metrics, nor_avg_prof_met, tot_prof_perc
 

@@ -88,9 +88,9 @@ class SALSTM4(nn.Module):
         self.mean_mid = nn.Linear(hidden_dim//2, hidden_dim//2, bias=False)
         self.mean_fc2 = nn.Linear(hidden_dim//2, 1, bias=False)
 
-        self.std_fc1 = nn.Linear(hidden_dim, hidden_dim//2, bias=False)
-        self.std_mid = nn.Linear(hidden_dim//2, hidden_dim//2, bias=False)
-        self.std_fc2 = nn.Linear(hidden_dim//2, 1, bias=False)
+        self.std_fc1 = nn.Linear(hidden_dim, hidden_dim//2)#, bias=False
+        self.std_mid = nn.Linear(hidden_dim//2, hidden_dim//2)#, bias=False
+        self.std_fc2 = nn.Linear(hidden_dim//2, 1)#, bias=False
 
         self.dev_fc1 = nn.Linear(hidden_dim+2, hidden_dim//2+1)
         self.dev_fc2 = nn.Linear(hidden_dim//2+1, 1)
@@ -135,7 +135,7 @@ class SALSTM4(nn.Module):
             if pprint:
                 print(f"alphat: ",alphat)
             att_out, alphat = self.attention(out)
-            out = 0.5*self.dropout(att_out) +0.5*out[:, -1, :]              # MIXED ATTENTION
+            out = 0.5*self.dropout(att_out) +0.5*out[:, -1, :]              # FIXED MIXED ATTENTION
         
         elif self.attention_mode == "TMA":
             att_out, alphat = self.attention(out)
