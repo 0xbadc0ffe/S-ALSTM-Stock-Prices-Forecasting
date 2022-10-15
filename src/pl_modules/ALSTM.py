@@ -93,7 +93,7 @@ class SALSTM4(nn.Module):
         self.std_fc2 = nn.Linear(hidden_dim//2, 1, bias=False)
 
         self.dev_fc1 = nn.Linear(hidden_dim+2, hidden_dim//2+1)
-        self.dev_fc2 = nn.Linear(hidden_dim//2+1, 1, bias=False)
+        self.dev_fc2 = nn.Linear(hidden_dim//2+1, 1)
         self.fc = nn.Linear(hidden_dim, output_dim)
 
         self.dropout = nn.Dropout(dropout_prob)
@@ -160,7 +160,8 @@ class SALSTM4(nn.Module):
         out_dev = torch.tanh(out_dev) #relu
         out_dev = self.dropout(out_dev)
         out_dev = self.dev_fc2(out_dev)
-        out_dev = torch.exp(out_dev/4) #torch.abs(out_dev)
+        #out_dev = torch.abs(out_dev)
+        out_dev = torch.exp(out_dev/4)
        
         out = self.fc(out)
 
