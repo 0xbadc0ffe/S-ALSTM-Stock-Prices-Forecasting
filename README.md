@@ -7,6 +7,7 @@ This model is based on daily traiding and it never keeps a position overnight. H
   <img src="imgs/SALSTM.drawio.png"  width="600" title="Model Architecture" />
 </p>
 
+The stochasticity is relvant only in the prediction of the trend direction, the displacement value ( $\Delta$-close price ) is therefore deterministic.
 
 
 
