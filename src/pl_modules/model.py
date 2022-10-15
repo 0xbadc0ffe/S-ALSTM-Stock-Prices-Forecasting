@@ -21,7 +21,7 @@ class MyModel(pl.LightningModule):
         num_layers = self.hparams.num_layers
         dropout_prob = self.hparams.dropout_prob
         self.look_back = self.hparams.look_back
-        attention_mode = "MA"  #self.hparams.attention_mode #TODO: Debug
+        attention_mode = "TMA"  #self.hparams.attention_mode #TODO: Debug
 
         #self.model = ALSTM.LSTMModel(input_dim=input_dim, hidden_dim=hidden_dim, layer_dim=num_layers, output_dim=1, dropout_prob=dropout_prob, device="cuda:0")
         self.model = ALSTM.SALSTM4(input_dim=input_dim, seq_length=self.hparams.look_back, hidden_dim=hidden_dim, layer_dim=num_layers, output_dim=1, dropout_prob=dropout_prob, attention_mode=attention_mode, device="cuda:0")
