@@ -10,7 +10,7 @@ Hereafter it is shown the model architecture.
 
 
 ## Features
-The $\sigma$ value can be seen as measure of the model uncertainty and can be used at inference time estimate local volatility. Therefore we can exploit this to define a buy-policy that depends also on how much the model feels the prediction risky. The following figure shows the $\sigma$ values (blue) vs the $\Delta$-close prices (orange) of the stock. 
+It is reasonable to set the SALSTM into deterministc mode once it is deployed, but nonetheless we can still exploit its distribution parameters. The $\sigma$ value can be seen as measure of the model uncertainty and can be used at inference time estimate local volatility. Therefore we can exploit this to define a buy-policy that depends also on how much the model feels the prediction risky. The following figure shows the $\sigma$ values (blue) vs the $\Delta$-close prices (orange) of the stock. 
 
 <p align="center">
   <img src="imgs/volatility.png"  width="500" title="Incremental Stock Trend vs Sigma" />
