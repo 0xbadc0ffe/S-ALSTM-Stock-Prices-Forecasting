@@ -4,3 +4,4 @@ dropout_prob: 0.2
 look_back: 30
 input_dim: 8
 hidden_dim: 12
+#attention_mode: "A" #None, A: Attention, MA: Mixed Attention, TAM: Trainable Mixed Attention

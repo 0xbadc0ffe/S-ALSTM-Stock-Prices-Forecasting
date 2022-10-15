@@ -58,7 +58,7 @@ class LSTMModel(nn.Module):
 
 
 class SALSTM4(nn.Module):
-    def __init__(self, input_dim, seq_length, hidden_dim, layer_dim, output_dim, dropout_prob, device="cpu"):
+    def __init__(self, input_dim, seq_length, hidden_dim, layer_dim, output_dim, dropout_prob, attention_mode="A", device="cpu"):
         super().__init__()
 
         # Defining the number of layers and the nodes in each layer
@@ -66,6 +66,7 @@ class SALSTM4(nn.Module):
         self.layer_dim = layer_dim
         self.device=device
         self.seq_length = seq_length
+        self.attention_mode = attention_mode
 
         self.attention_layer = nn.Linear(self.hidden_dim, 1, bias=False)
         self.mixed_att_weigths = torch.nn.Parameter(torch.randn(1,2))
@@ -122,18 +123,24 @@ class SALSTM4(nn.Module):
         # Forward propagation by passing in the input, hidden state, and cell state into the model
         out, (hn, cn) = self.lstm(x, (h0, c0))# (h0.detach(), c0.detach()))
 
-        att_out, alphat = self.attention(out)
-        if pprint:
-            print(f"alphat: ",alphat)
+
+        if self.attention_mode == "None":
+            out = self.dropout(out[:, -1, :])                               # NO ATTENTION
+        elif self.attention_mode == "A":
+            att_out, alphat = self.attention(out)
+            out = self.dropout(att_out)                                     # FULL ATTENTION 
+            if pprint:
+                print(f"alphat: ",alphat)
+        elif self.attention_mode == "MA":
+            att_out, alphat = self.attention(out)
+            out = 0.5*self.dropout(att_out) +0.5*out[:, -1, :]              # MIXED ATTENTION
         
-        #out = self.dropout(out[:, -1, :])                  # NO ATTENTION
-        #out = self.dropout(att_out)                        # FULL ATTENTION 
-        #out = 0.5*self.dropout(att_out) +0.5*out[:, -1, :] # MIXED ATTENTION
-        
-        maw = F.softmax(self.mixed_att_weigths, dim=1)      # mixed attention weights
-        if pprint:
-            print("MAW:", maw)
-        out = maw[0,0]*self.dropout(att_out) +maw[0,1]*out[:, -1, :]   # TRAINABLE MIXED ATTENTION
+        elif self.attention_mode == "TMA":
+            att_out, alphat = self.attention(out)
+            maw = F.softmax(self.mixed_att_weigths, dim=1)                  # mixed attention weights
+            if pprint:
+                print("MAW:", maw)
+            out = maw[0,0]*self.dropout(att_out) +maw[0,1]*out[:, -1, :]    # TRAINABLE MIXED ATTENTION
         out = torch.relu(out) 
     
         out_m = self.mean_fc1(out)
