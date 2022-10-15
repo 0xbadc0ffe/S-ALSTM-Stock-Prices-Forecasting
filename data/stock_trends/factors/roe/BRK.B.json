@@ -1,0 +1,308 @@
+{
+    "0": {
+        "Date": 1262217600000,
+        "Return on Equity": 8.055,
+        "Shareholder's Equity": 135.785,
+        "TTM Net Income": 6.55
+    },
+    "1": {
+        "Date": 1269993600000,
+        "Return on Equity": 13.222,
+        "Shareholder's Equity": 151.924,
+        "TTM Net Income": 9.84
+    },
+    "2": {
+        "Date": 1277856000000,
+        "Return on Equity": 11.895,
+        "Shareholder's Equity": 147.514,
+        "TTM Net Income": 8.41
+    },
+    "3": {
+        "Date": 1285804800000,
+        "Return on Equity": 11.646,
+        "Shareholder's Equity": 154.597,
+        "TTM Net Income": 7.9
+    },
+    "4": {
+        "Date": 1293753600000,
+        "Return on Equity": 12.967,
+        "Shareholder's Equity": 162.934,
+        "TTM Net Income": 8.41
+    },
+    "5": {
+        "Date": 1301529600000,
+        "Return on Equity": 10.845,
+        "Shareholder's Equity": 164.265,
+        "TTM Net Income": 6.89
+    },
+    "6": {
+        "Date": 1309392000000,
+        "Return on Equity": 12.294,
+        "Shareholder's Equity": 166.784,
+        "TTM Net Income": 7.58
+    },
+    "7": {
+        "Date": 1317340800000,
+        "Return on Equity": 11.583,
+        "Shareholder's Equity": 163.881,
+        "TTM Net Income": 7.04
+    },
+    "8": {
+        "Date": 1325289600000,
+        "Return on Equity": 10.254,
+        "Shareholder's Equity": 168.961,
+        "TTM Net Income": 6.18
+    },
+    "9": {
+        "Date": 1333152000000,
+        "Return on Equity": 11.988,
+        "Shareholder's Equity": 180.269,
+        "TTM Net Income": 7.05
+    },
+    "10": {
+        "Date": 1341014400000,
+        "Return on Equity": 11.679,
+        "Shareholder's Equity": 181.715,
+        "TTM Net Income": 6.72
+    },
+    "11": {
+        "Date": 1348963200000,
+        "Return on Equity": 13.321,
+        "Shareholder's Equity": 189.074,
+        "TTM Net Income": 7.4
+    },
+    "12": {
+        "Date": 1356912000000,
+        "Return on Equity": 14.824,
+        "Shareholder's Equity": 191.588,
+        "TTM Net Income": 7.98
+    },
+    "13": {
+        "Date": 1364688000000,
+        "Return on Equity": 16.471,
+        "Shareholder's Equity": 202.106,
+        "TTM Net Income": 8.62
+    },
+    "14": {
+        "Date": 1372550400000,
+        "Return on Equity": 17.904,
+        "Shareholder's Equity": 204.988,
+        "TTM Net Income": 9.09
+    },
+    "15": {
+        "Date": 1380499200000,
+        "Return on Equity": 19.037,
+        "Shareholder's Equity": 211.431,
+        "TTM Net Income": 9.4
+    },
+    "16": {
+        "Date": 1388448000000,
+        "Return on Equity": 19.476,
+        "Shareholder's Equity": 224.485,
+        "TTM Net Income": 9.24
+    },
+    "17": {
+        "Date": 1396224000000,
+        "Return on Equity": 19.289,
+        "Shareholder's Equity": 230.289,
+        "TTM Net Income": 8.86
+    },
+    "18": {
+        "Date": 1404086400000,
+        "Return on Equity": 21.143,
+        "Shareholder's Equity": 236.76,
+        "TTM Net Income": 9.37
+    },
+    "19": {
+        "Date": 1412035200000,
+        "Return on Equity": 20.707,
+        "Shareholder's Equity": 240.302,
+        "TTM Net Income": 8.89
+    },
+    "20": {
+        "Date": 1419984000000,
+        "Return on Equity": 19.872,
+        "Shareholder's Equity": 243.027,
+        "TTM Net Income": 8.36
+    },
+    "21": {
+        "Date": 1427760000000,
+        "Return on Equity": 20.331,
+        "Shareholder's Equity": 244.839,
+        "TTM Net Income": 8.43
+    },
+    "22": {
+        "Date": 1435622400000,
+        "Return on Equity": 17.949,
+        "Shareholder's Equity": 249.202,
+        "TTM Net Income": 7.35
+    },
+    "23": {
+        "Date": 1443571200000,
+        "Return on Equity": 22.76,
+        "Shareholder's Equity": 251.321,
+        "TTM Net Income": 9.21
+    },
+    "24": {
+        "Date": 1451520000000,
+        "Return on Equity": 24.083,
+        "Shareholder's Equity": 258.627,
+        "TTM Net Income": 9.59
+    },
+    "25": {
+        "Date": 1459382400000,
+        "Return on Equity": 24.508,
+        "Shareholder's Equity": 261.837,
+        "TTM Net Income": 9.6
+    },
+    "26": {
+        "Date": 1467244800000,
+        "Return on Equity": 25.496,
+        "Shareholder's Equity": 266.258,
+        "TTM Net Income": 9.82
+    },
+    "27": {
+        "Date": 1475193600000,
+        "Return on Equity": 23.266,
+        "Shareholder's Equity": 272.615,
+        "TTM Net Income": 8.79
+    },
+    "28": {
+        "Date": 1483142400000,
+        "Return on Equity": 24.074,
+        "Shareholder's Equity": 285.428,
+        "TTM Net Income": 8.87
+    },
+    "29": {
+        "Date": 1490918400000,
+        "Return on Equity": 22.545,
+        "Shareholder's Equity": 296.28,
+        "TTM Net Income": 8.05
+    },
+    "30": {
+        "Date": 1498780800000,
+        "Return on Equity": 21.806,
+        "Shareholder's Equity": 304.093,
+        "TTM Net Income": 7.53
+    },
+    "31": {
+        "Date": 1506729600000,
+        "Return on Equity": 18.675,
+        "Shareholder's Equity": 311.852,
+        "TTM Net Income": 6.24
+    },
+    "32": {
+        "Date": 1514678400000,
+        "Return on Equity": 44.94,
+        "Shareholder's Equity": 351.954,
+        "TTM Net Income": 14.22
+    },
+    "33": {
+        "Date": 1522454400000,
+        "Return on Equity": 39.742,
+        "Shareholder's Equity": 351.052,
+        "TTM Net Income": 12.05
+    },
+    "34": {
+        "Date": 1530316800000,
+        "Return on Equity": 47.491,
+        "Shareholder's Equity": 361.758,
+        "TTM Net Income": 13.8
+    },
+    "35": {
+        "Date": 1538265600000,
+        "Return on Equity": 61.964,
+        "Shareholder's Equity": 379.419,
+        "TTM Net Income": 17.16
+    },
+    "36": {
+        "Date": 1546214400000,
+        "Return on Equity": 4.021,
+        "Shareholder's Equity": 352.5,
+        "TTM Net Income": 1.11
+    },
+    "37": {
+        "Date": 1553990400000,
+        "Return on Equity": 26.82,
+        "Shareholder's Equity": 372.591,
+        "TTM Net Income": 7.32
+    },
+    "38": {
+        "Date": 1561852800000,
+        "Return on Equity": 28.882,
+        "Shareholder's Equity": 386.391,
+        "TTM Net Income": 7.75
+    },
+    "39": {
+        "Date": 1569801600000,
+        "Return on Equity": 26.866,
+        "Shareholder's Equity": 401.558,
+        "TTM Net Income": 7.1
+    },
+    "40": {
+        "Date": 1577750400000,
+        "Return on Equity": 81.417,
+        "Shareholder's Equity": 428.563,
+        "TTM Net Income": 20.49
+    },
+    "41": {
+        "Date": 1585612800000,
+        "Return on Equity": 10.01,
+        "Shareholder's Equity": 375.235,
+        "TTM Net Income": 2.52
+    },
+    "42": {
+        "Date": 1593475200000,
+        "Return on Equity": 22.232,
+        "Shareholder's Equity": 397.253,
+        "TTM Net Income": 5.55
+    },
+    "43": {
+        "Date": 1601424000000,
+        "Return on Equity": 35.845,
+        "Shareholder's Equity": 419.215,
+        "TTM Net Income": 8.85
+    },
+    "44": {
+        "Date": 1609372800000,
+        "Return on Equity": 42.521,
+        "Shareholder's Equity": 451.336,
+        "TTM Net Income": 10.35
+    },
+    "45": {
+        "Date": 1617148800000,
+        "Return on Equity": 103.978,
+        "Shareholder's Equity": 456.176,
+        "TTM Net Income": 24.13
+    },
+    "46": {
+        "Date": 1625011200000,
+        "Return on Equity": 105.777,
+        "Shareholder's Equity": 478.8,
+        "TTM Net Income": 23.43
+    },
+    "47": {
+        "Date": 1632960000000,
+        "Return on Equity": 85.984,
+        "Shareholder's Equity": 481.075,
+        "TTM Net Income": 18.42
+    },
+    "48": {
+        "Date": 1640908800000,
+        "Return on Equity": 89.795,
+        "Shareholder's Equity": 514.93,
+        "TTM Net Income": 18.6
+    },
+    "49": {
+        "Date": 1648684800000,
+        "Return on Equity": 83.544,
+        "Shareholder's Equity": 516.865,
+        "TTM Net Income": 16.78
+    },
+    "50": {
+        "Date": 1656547200000,
+        "Return on Equity": 11.695,
+        "Shareholder's Equity": 469.653,
+        "TTM Net Income": 2.36
+    }
+}

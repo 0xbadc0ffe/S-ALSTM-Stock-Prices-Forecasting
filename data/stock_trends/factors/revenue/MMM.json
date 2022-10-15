@@ -1,0 +1,54 @@
+{
+    "0": {
+        "Date": 1609459200000,
+        "Quarterly Revenue": 35355.0
+    },
+    "1": {
+        "Date": 1577836800000,
+        "Quarterly Revenue": 32184.0
+    },
+    "2": {
+        "Date": 1546300800000,
+        "Quarterly Revenue": 32136.0
+    },
+    "3": {
+        "Date": 1514764800000,
+        "Quarterly Revenue": 32765.0
+    },
+    "4": {
+        "Date": 1483228800000,
+        "Quarterly Revenue": 31657.0
+    },
+    "5": {
+        "Date": 1451606400000,
+        "Quarterly Revenue": 30109.0
+    },
+    "6": {
+        "Date": 1420070400000,
+        "Quarterly Revenue": 30274.0
+    },
+    "7": {
+        "Date": 1388534400000,
+        "Quarterly Revenue": 31821.0
+    },
+    "8": {
+        "Date": 1356998400000,
+        "Quarterly Revenue": 30871.0
+    },
+    "9": {
+        "Date": 1325376000000,
+        "Quarterly Revenue": 29904.0
+    },
+    "10": {
+        "Date": 1293840000000,
+        "Quarterly Revenue": 29611.0
+    },
+    "11": {
+        "Date": 1262304000000,
+        "Quarterly Revenue": 26662.0
+    },
+    "12": {
+        "Date": 1230768000000,
+        "Quarterly Revenue": 23123.0
+    }
+}

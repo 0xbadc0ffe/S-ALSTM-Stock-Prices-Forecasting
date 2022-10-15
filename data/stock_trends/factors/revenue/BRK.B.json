@@ -1,0 +1,308 @@
+{
+    "0": {
+        "Date": 1262217600000,
+        "Trailing 12 Months": 112.493,
+        "Quarterly": 30.198,
+        "YoY Quarterly Growth": null
+    },
+    "1": {
+        "Date": 1269993600000,
+        "Trailing 12 Months": 121.746,
+        "Quarterly": 32.037,
+        "YoY Quarterly Growth": 40.61
+    },
+    "2": {
+        "Date": 1277856000000,
+        "Trailing 12 Months": 123.848,
+        "Quarterly": 31.709,
+        "YoY Quarterly Growth": 7.1
+    },
+    "3": {
+        "Date": 1285804800000,
+        "Trailing 12 Months": 130.218,
+        "Quarterly": 36.274,
+        "YoY Quarterly Growth": 21.3
+    },
+    "4": {
+        "Date": 1293753600000,
+        "Trailing 12 Months": 136.185,
+        "Quarterly": 36.165,
+        "YoY Quarterly Growth": 19.76
+    },
+    "5": {
+        "Date": 1301529600000,
+        "Trailing 12 Months": 137.868,
+        "Quarterly": 33.72,
+        "YoY Quarterly Growth": 5.25
+    },
+    "6": {
+        "Date": 1309392000000,
+        "Trailing 12 Months": 144.433,
+        "Quarterly": 38.274,
+        "YoY Quarterly Growth": 20.7
+    },
+    "7": {
+        "Date": 1317340800000,
+        "Trailing 12 Months": 141.898,
+        "Quarterly": 33.739,
+        "YoY Quarterly Growth": -6.99
+    },
+    "8": {
+        "Date": 1325289600000,
+        "Trailing 12 Months": 143.688,
+        "Quarterly": 37.955,
+        "YoY Quarterly Growth": 4.95
+    },
+    "9": {
+        "Date": 1333152000000,
+        "Trailing 12 Months": 148.115,
+        "Quarterly": 38.147,
+        "YoY Quarterly Growth": 13.13
+    },
+    "10": {
+        "Date": 1341014400000,
+        "Trailing 12 Months": 148.387,
+        "Quarterly": 38.546,
+        "YoY Quarterly Growth": 0.71
+    },
+    "11": {
+        "Date": 1348963200000,
+        "Trailing 12 Months": 155.698,
+        "Quarterly": 41.05,
+        "YoY Quarterly Growth": 21.67
+    },
+    "12": {
+        "Date": 1356912000000,
+        "Trailing 12 Months": 162.463,
+        "Quarterly": 44.72,
+        "YoY Quarterly Growth": 17.82
+    },
+    "13": {
+        "Date": 1364688000000,
+        "Trailing 12 Months": 168.183,
+        "Quarterly": 43.867,
+        "YoY Quarterly Growth": 14.99
+    },
+    "14": {
+        "Date": 1372550400000,
+        "Trailing 12 Months": 174.33,
+        "Quarterly": 44.693,
+        "YoY Quarterly Growth": 15.95
+    },
+    "15": {
+        "Date": 1380499200000,
+        "Trailing 12 Months": 179.821,
+        "Quarterly": 46.541,
+        "YoY Quarterly Growth": 13.38
+    },
+    "16": {
+        "Date": 1388448000000,
+        "Trailing 12 Months": 182.15,
+        "Quarterly": 47.049,
+        "YoY Quarterly Growth": 5.21
+    },
+    "17": {
+        "Date": 1396224000000,
+        "Trailing 12 Months": 183.736,
+        "Quarterly": 45.453,
+        "YoY Quarterly Growth": 3.62
+    },
+    "18": {
+        "Date": 1404086400000,
+        "Trailing 12 Months": 188.805,
+        "Quarterly": 49.762,
+        "YoY Quarterly Growth": 11.34
+    },
+    "19": {
+        "Date": 1412035200000,
+        "Trailing 12 Months": 193.463,
+        "Quarterly": 51.199,
+        "YoY Quarterly Growth": 10.01
+    },
+    "20": {
+        "Date": 1419984000000,
+        "Trailing 12 Months": 194.699,
+        "Quarterly": 48.285,
+        "YoY Quarterly Growth": 2.63
+    },
+    "21": {
+        "Date": 1427760000000,
+        "Trailing 12 Months": 197.89,
+        "Quarterly": 48.644,
+        "YoY Quarterly Growth": 7.02
+    },
+    "22": {
+        "Date": 1435622400000,
+        "Trailing 12 Months": 199.496,
+        "Quarterly": 51.368,
+        "YoY Quarterly Growth": 3.23
+    },
+    "23": {
+        "Date": 1443571200000,
+        "Trailing 12 Months": 207.286,
+        "Quarterly": 58.989,
+        "YoY Quarterly Growth": 15.22
+    },
+    "24": {
+        "Date": 1451520000000,
+        "Trailing 12 Months": 210.943,
+        "Quarterly": 51.942,
+        "YoY Quarterly Growth": 7.57
+    },
+    "25": {
+        "Date": 1459382400000,
+        "Trailing 12 Months": 214.462,
+        "Quarterly": 52.163,
+        "YoY Quarterly Growth": 7.23
+    },
+    "26": {
+        "Date": 1467244800000,
+        "Trailing 12 Months": 217.348,
+        "Quarterly": 54.254,
+        "YoY Quarterly Growth": 5.62
+    },
+    "27": {
+        "Date": 1475193600000,
+        "Trailing 12 Months": 217.202,
+        "Quarterly": 58.843,
+        "YoY Quarterly Growth": -0.25
+    },
+    "28": {
+        "Date": 1483142400000,
+        "Trailing 12 Months": 215.114,
+        "Quarterly": 49.854,
+        "YoY Quarterly Growth": -4.02
+    },
+    "29": {
+        "Date": 1490918400000,
+        "Trailing 12 Months": 227.321,
+        "Quarterly": 64.37,
+        "YoY Quarterly Growth": 23.4
+    },
+    "30": {
+        "Date": 1498780800000,
+        "Trailing 12 Months": 230.323,
+        "Quarterly": 57.256,
+        "YoY Quarterly Growth": 5.53
+    },
+    "31": {
+        "Date": 1506729600000,
+        "Trailing 12 Months": 230.987,
+        "Quarterly": 59.507,
+        "YoY Quarterly Growth": 1.13
+    },
+    "32": {
+        "Date": 1514678400000,
+        "Trailing 12 Months": 239.933,
+        "Quarterly": 58.8,
+        "YoY Quarterly Growth": 17.94
+    },
+    "33": {
+        "Date": 1522454400000,
+        "Trailing 12 Months": 234.036,
+        "Quarterly": 58.473,
+        "YoY Quarterly Growth": -9.16
+    },
+    "34": {
+        "Date": 1530316800000,
+        "Trailing 12 Months": 238.98,
+        "Quarterly": 62.2,
+        "YoY Quarterly Growth": 8.63
+    },
+    "35": {
+        "Date": 1538265600000,
+        "Trailing 12 Months": 242.923,
+        "Quarterly": 63.45,
+        "YoY Quarterly Growth": 6.63
+    },
+    "36": {
+        "Date": 1546214400000,
+        "Trailing 12 Months": 247.837,
+        "Quarterly": 63.714,
+        "YoY Quarterly Growth": 8.36
+    },
+    "37": {
+        "Date": 1553990400000,
+        "Trailing 12 Months": 250.042,
+        "Quarterly": 60.678,
+        "YoY Quarterly Growth": 3.77
+    },
+    "38": {
+        "Date": 1561852800000,
+        "Trailing 12 Months": 251.44,
+        "Quarterly": 63.598,
+        "YoY Quarterly Growth": 2.25
+    },
+    "39": {
+        "Date": 1569801600000,
+        "Trailing 12 Months": 252.962,
+        "Quarterly": 64.972,
+        "YoY Quarterly Growth": 2.4
+    },
+    "40": {
+        "Date": 1577750400000,
+        "Trailing 12 Months": 254.616,
+        "Quarterly": 65.368,
+        "YoY Quarterly Growth": 2.6
+    },
+    "41": {
+        "Date": 1585612800000,
+        "Trailing 12 Months": 255.203,
+        "Quarterly": 61.265,
+        "YoY Quarterly Growth": 0.97
+    },
+    "42": {
+        "Date": 1593475200000,
+        "Trailing 12 Months": 248.445,
+        "Quarterly": 56.84,
+        "YoY Quarterly Growth": -10.63
+    },
+    "43": {
+        "Date": 1601424000000,
+        "Trailing 12 Months": 246.497,
+        "Quarterly": 63.024,
+        "YoY Quarterly Growth": -3.0
+    },
+    "44": {
+        "Date": 1609372800000,
+        "Trailing 12 Months": 245.51,
+        "Quarterly": 64.381,
+        "YoY Quarterly Growth": -1.51
+    },
+    "45": {
+        "Date": 1617148800000,
+        "Trailing 12 Months": 248.844,
+        "Quarterly": 64.599,
+        "YoY Quarterly Growth": 5.44
+    },
+    "46": {
+        "Date": 1625011200000,
+        "Trailing 12 Months": 261.118,
+        "Quarterly": 69.114,
+        "YoY Quarterly Growth": 21.59
+    },
+    "47": {
+        "Date": 1632960000000,
+        "Trailing 12 Months": 268.677,
+        "Quarterly": 70.583,
+        "YoY Quarterly Growth": 11.99
+    },
+    "48": {
+        "Date": 1640908800000,
+        "Trailing 12 Months": 276.094,
+        "Quarterly": 71.798,
+        "YoY Quarterly Growth": 11.52
+    },
+    "49": {
+        "Date": 1648684800000,
+        "Trailing 12 Months": 282.305,
+        "Quarterly": 70.81,
+        "YoY Quarterly Growth": 9.61
+    },
+    "50": {
+        "Date": 1656547200000,
+        "Trailing 12 Months": 289.371,
+        "Quarterly": 76.18,
+        "YoY Quarterly Growth": 10.22
+    }
+}

@@ -1,0 +1,332 @@
+{
+    "0": {
+        "Date": 1660262400000,
+        "Stock Price": 143.55,
+        "Book Value per Share": null,
+        "Price to Book Ratio": 11.12
+    },
+    "1": {
+        "Date": 1656547200000,
+        "Stock Price": 106.21,
+        "Book Value per Share": 12.9,
+        "Price to Book Ratio": 8.23
+    },
+    "2": {
+        "Date": 1648684800000,
+        "Stock Price": 163.0,
+        "Book Value per Share": 13.16,
+        "Price to Book Ratio": 12.38
+    },
+    "3": {
+        "Date": 1640908800000,
+        "Stock Price": 166.72,
+        "Book Value per Share": 13.59,
+        "Price to Book Ratio": 12.27
+    },
+    "4": {
+        "Date": 1632960000000,
+        "Stock Price": 164.25,
+        "Book Value per Share": 11.89,
+        "Price to Book Ratio": 13.81
+    },
+    "5": {
+        "Date": 1625011200000,
+        "Stock Price": 172.01,
+        "Book Value per Share": 11.34,
+        "Price to Book Ratio": 15.16
+    },
+    "6": {
+        "Date": 1617148800000,
+        "Stock Price": 154.7,
+        "Book Value per Share": 10.25,
+        "Price to Book Ratio": 15.09
+    },
+    "7": {
+        "Date": 1609372800000,
+        "Stock Price": 162.85,
+        "Book Value per Share": 9.28,
+        "Price to Book Ratio": 17.54
+    },
+    "8": {
+        "Date": 1601424000000,
+        "Stock Price": 157.44,
+        "Book Value per Share": 8.24,
+        "Price to Book Ratio": 19.1
+    },
+    "9": {
+        "Date": 1593475200000,
+        "Stock Price": 137.94,
+        "Book Value per Share": 7.36,
+        "Price to Book Ratio": 18.75
+    },
+    "10": {
+        "Date": 1585612800000,
+        "Stock Price": 97.49,
+        "Book Value per Share": 6.54,
+        "Price to Book Ratio": 14.91
+    },
+    "11": {
+        "Date": 1577750400000,
+        "Stock Price": 92.39,
+        "Book Value per Share": 6.23,
+        "Price to Book Ratio": 14.83
+    },
+    "12": {
+        "Date": 1569801600000,
+        "Stock Price": 86.8,
+        "Book Value per Share": 5.71,
+        "Price to Book Ratio": 15.21
+    },
+    "13": {
+        "Date": 1561852800000,
+        "Stock Price": 94.68,
+        "Book Value per Share": 5.37,
+        "Price to Book Ratio": 17.63
+    },
+    "14": {
+        "Date": 1553990400000,
+        "Stock Price": 89.04,
+        "Book Value per Share": 4.92,
+        "Price to Book Ratio": 18.1
+    },
+    "15": {
+        "Date": 1546214400000,
+        "Stock Price": 75.1,
+        "Book Value per Share": 4.43,
+        "Price to Book Ratio": 16.93
+    },
+    "16": {
+        "Date": 1538265600000,
+        "Stock Price": 100.15,
+        "Book Value per Share": 4.0,
+        "Price to Book Ratio": 25.03
+    },
+    "17": {
+        "Date": 1530316800000,
+        "Stock Price": 84.99,
+        "Book Value per Share": 3.59,
+        "Price to Book Ratio": 23.65
+    },
+    "18": {
+        "Date": 1522454400000,
+        "Stock Price": 72.37,
+        "Book Value per Share": 3.24,
+        "Price to Book Ratio": 22.31
+    },
+    "19": {
+        "Date": 1514678400000,
+        "Stock Price": 58.47,
+        "Book Value per Share": 2.86,
+        "Price to Book Ratio": 20.43
+    },
+    "20": {
+        "Date": 1506729600000,
+        "Stock Price": 48.07,
+        "Book Value per Share": 2.56,
+        "Price to Book Ratio": 18.79
+    },
+    "21": {
+        "Date": 1498780800000,
+        "Stock Price": 48.4,
+        "Book Value per Share": 2.42,
+        "Price to Book Ratio": 20.02
+    },
+    "22": {
+        "Date": 1490918400000,
+        "Stock Price": 44.33,
+        "Book Value per Share": 2.27,
+        "Price to Book Ratio": 19.55
+    },
+    "23": {
+        "Date": 1483142400000,
+        "Stock Price": 37.49,
+        "Book Value per Share": 2.02,
+        "Price to Book Ratio": 18.55
+    },
+    "24": {
+        "Date": 1475193600000,
+        "Stock Price": 41.87,
+        "Book Value per Share": 1.87,
+        "Price to Book Ratio": 22.37
+    },
+    "25": {
+        "Date": 1467244800000,
+        "Stock Price": 35.78,
+        "Book Value per Share": 1.74,
+        "Price to Book Ratio": 20.51
+    },
+    "26": {
+        "Date": 1459382400000,
+        "Stock Price": 29.68,
+        "Book Value per Share": 1.56,
+        "Price to Book Ratio": 18.99
+    },
+    "27": {
+        "Date": 1451520000000,
+        "Stock Price": 33.79,
+        "Book Value per Share": 1.42,
+        "Price to Book Ratio": 23.79
+    },
+    "28": {
+        "Date": 1443571200000,
+        "Stock Price": 25.58,
+        "Book Value per Share": 1.33,
+        "Price to Book Ratio": 19.31
+    },
+    "29": {
+        "Date": 1435622400000,
+        "Stock Price": 21.7,
+        "Book Value per Share": 1.26,
+        "Price to Book Ratio": 17.26
+    },
+    "30": {
+        "Date": 1427760000000,
+        "Stock Price": 18.61,
+        "Book Value per Share": 1.17,
+        "Price to Book Ratio": 15.95
+    },
+    "31": {
+        "Date": 1419984000000,
+        "Stock Price": 15.52,
+        "Book Value per Share": 1.15,
+        "Price to Book Ratio": 13.44
+    },
+    "32": {
+        "Date": 1412035200000,
+        "Stock Price": 16.12,
+        "Book Value per Share": 1.12,
+        "Price to Book Ratio": 14.44
+    },
+    "33": {
+        "Date": 1404086400000,
+        "Stock Price": 16.24,
+        "Book Value per Share": 1.15,
+        "Price to Book Ratio": 14.15
+    },
+    "34": {
+        "Date": 1388448000000,
+        "Stock Price": 19.94,
+        "Book Value per Share": 1.06,
+        "Price to Book Ratio": 18.78
+    },
+    "35": {
+        "Date": 1380499200000,
+        "Stock Price": 15.63,
+        "Book Value per Share": 0.99,
+        "Price to Book Ratio": 15.76
+    },
+    "36": {
+        "Date": 1372550400000,
+        "Stock Price": 13.88,
+        "Book Value per Share": 0.96,
+        "Price to Book Ratio": 14.53
+    },
+    "37": {
+        "Date": 1364688000000,
+        "Stock Price": 13.32,
+        "Book Value per Share": 0.93,
+        "Price to Book Ratio": 14.38
+    },
+    "38": {
+        "Date": 1356912000000,
+        "Stock Price": 12.54,
+        "Book Value per Share": 0.9,
+        "Price to Book Ratio": 13.9
+    },
+    "39": {
+        "Date": 1396224000000,
+        "Stock Price": 16.82,
+        "Book Value per Share": 1.12,
+        "Price to Book Ratio": 14.98
+    },
+    "40": {
+        "Date": 1348963200000,
+        "Stock Price": 12.72,
+        "Book Value per Share": 0.83,
+        "Price to Book Ratio": 15.25
+    },
+    "41": {
+        "Date": 1341014400000,
+        "Stock Price": 11.42,
+        "Book Value per Share": 0.83,
+        "Price to Book Ratio": 13.75
+    },
+    "42": {
+        "Date": 1333152000000,
+        "Stock Price": 10.13,
+        "Book Value per Share": 0.81,
+        "Price to Book Ratio": 12.53
+    },
+    "43": {
+        "Date": 1325289600000,
+        "Stock Price": 8.66,
+        "Book Value per Share": 0.85,
+        "Price to Book Ratio": 10.15
+    },
+    "44": {
+        "Date": 1317340800000,
+        "Stock Price": 10.81,
+        "Book Value per Share": 0.85,
+        "Price to Book Ratio": 12.67
+    },
+    "45": {
+        "Date": 1309392000000,
+        "Stock Price": 10.22,
+        "Book Value per Share": 0.86,
+        "Price to Book Ratio": 11.96
+    },
+    "46": {
+        "Date": 1301529600000,
+        "Stock Price": 9.01,
+        "Book Value per Share": 0.81,
+        "Price to Book Ratio": 11.08
+    },
+    "47": {
+        "Date": 1293753600000,
+        "Stock Price": 9.0,
+        "Book Value per Share": 0.76,
+        "Price to Book Ratio": 11.83
+    },
+    "48": {
+        "Date": 1285804800000,
+        "Stock Price": 7.85,
+        "Book Value per Share": 0.71,
+        "Price to Book Ratio": 11.02
+    },
+    "49": {
+        "Date": 1277856000000,
+        "Stock Price": 5.46,
+        "Book Value per Share": 0.65,
+        "Price to Book Ratio": 8.36
+    },
+    "50": {
+        "Date": 1269993600000,
+        "Stock Price": 6.79,
+        "Book Value per Share": 0.63,
+        "Price to Book Ratio": 10.78
+    },
+    "51": {
+        "Date": 1262217600000,
+        "Stock Price": 6.73,
+        "Book Value per Share": 0.59,
+        "Price to Book Ratio": 11.36
+    },
+    "52": {
+        "Date": 1254268800000,
+        "Stock Price": 4.67,
+        "Book Value per Share": 0.41,
+        "Price to Book Ratio": 11.28
+    },
+    "53": {
+        "Date": 1246320000000,
+        "Stock Price": 4.18,
+        "Book Value per Share": 0.38,
+        "Price to Book Ratio": 11.1
+    },
+    "54": {
+        "Date": 1238457600000,
+        "Stock Price": 3.67,
+        "Book Value per Share": 0.34,
+        "Price to Book Ratio": 10.8
+    }
+}

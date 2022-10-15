@@ -1,0 +1,296 @@
+{
+    "0": {
+        "Date": "2022-06-30",
+        "TTM Net Income": 9.52,
+        "Shareholder's Equity": 37.24,
+        "Return on Equity": 29.04
+    },
+    "1": {
+        "Date": "2022-03-31",
+        "TTM Net Income": 8.4,
+        "Shareholder's Equity": 34.95,
+        "Return on Equity": 28.11
+    },
+    "2": {
+        "Date": "2021-12-31",
+        "TTM Net Income": 5.52,
+        "Shareholder's Equity": 31.02,
+        "Return on Equity": 20.36
+    },
+    "3": {
+        "Date": "2021-09-30",
+        "TTM Net Income": 3.5,
+        "Shareholder's Equity": 27.89,
+        "Return on Equity": 13.93
+    },
+    "4": {
+        "Date": "2021-06-30",
+        "TTM Net Income": 2.18,
+        "Shareholder's Equity": 25.65,
+        "Return on Equity": 9.75
+    },
+    "5": {
+        "Date": "2021-03-31",
+        "TTM Net Income": 1.14,
+        "Shareholder's Equity": 23.86,
+        "Return on Equity": 6.13
+    },
+    "6": {
+        "Date": "2020-12-31",
+        "TTM Net Income": 0.72,
+        "Shareholder's Equity": 23.08,
+        "Return on Equity": 4.75
+    },
+    "7": {
+        "Date": "2020-09-30",
+        "TTM Net Income": 0.53,
+        "Shareholder's Equity": 16.89,
+        "Return on Equity": 4.72
+    },
+    "8": {
+        "Date": "2020-06-30",
+        "TTM Net Income": 0.38,
+        "Shareholder's Equity": 10.72,
+        "Return on Equity": 4.28
+    },
+    "9": {
+        "Date": "2020-03-31",
+        "TTM Net Income": -0.14,
+        "Shareholder's Equity": 10.04,
+        "Return on Equity": -1.76
+    },
+    "10": {
+        "Date": "2019-12-31",
+        "TTM Net Income": -0.86,
+        "Shareholder's Equity": 7.47,
+        "Return on Equity": -13.07
+    },
+    "11": {
+        "Date": "2019-09-30",
+        "TTM Net Income": -0.84,
+        "Shareholder's Equity": 6.88,
+        "Return on Equity": -13.53
+    },
+    "12": {
+        "Date": "2019-06-30",
+        "TTM Net Income": -0.67,
+        "Shareholder's Equity": 6.57,
+        "Return on Equity": -11.55
+    },
+    "13": {
+        "Date": "2019-03-31",
+        "TTM Net Income": -0.98,
+        "Shareholder's Equity": 5.47,
+        "Return on Equity": -18.39
+    },
+    "14": {
+        "Date": "2018-12-31",
+        "TTM Net Income": -0.98,
+        "Shareholder's Equity": 5.76,
+        "Return on Equity": -18.52
+    },
+    "15": {
+        "Date": "2018-09-30",
+        "TTM Net Income": -1.79,
+        "Shareholder's Equity": 5.3,
+        "Return on Equity": -34.85
+    },
+    "16": {
+        "Date": "2018-06-30",
+        "TTM Net Income": -2.72,
+        "Shareholder's Equity": 4.73,
+        "Return on Equity": -51.74
+    },
+    "17": {
+        "Date": "2018-03-31",
+        "TTM Net Income": -2.34,
+        "Shareholder's Equity": 5.32,
+        "Return on Equity": -41.54
+    },
+    "18": {
+        "Date": "2017-12-31",
+        "TTM Net Income": -1.96,
+        "Shareholder's Equity": 5.24,
+        "Return on Equity": -34.07
+    },
+    "19": {
+        "Date": "2017-09-30",
+        "TTM Net Income": -1.41,
+        "Shareholder's Equity": 5.78,
+        "Return on Equity": -24.11
+    },
+    "20": {
+        "Date": "2017-06-30",
+        "TTM Net Income": -0.77,
+        "Shareholder's Equity": 6.22,
+        "Return on Equity": -15.13
+    },
+    "21": {
+        "Date": "2017-03-31",
+        "TTM Net Income": -0.72,
+        "Shareholder's Equity": 5.8,
+        "Return on Equity": -17.47
+    },
+    "22": {
+        "Date": "2016-12-31",
+        "TTM Net Income": -0.67,
+        "Shareholder's Equity": 5.54,
+        "Return on Equity": -23.03
+    },
+    "23": {
+        "Date": "2016-09-30",
+        "TTM Net Income": -0.87,
+        "Shareholder's Equity": 2.68,
+        "Return on Equity": -48.14
+    },
+    "24": {
+        "Date": "2016-06-30",
+        "TTM Net Income": -1.13,
+        "Shareholder's Equity": 2.52,
+        "Return on Equity": -76.41
+    },
+    "25": {
+        "Date": "2016-03-31",
+        "TTM Net Income": -1.02,
+        "Shareholder's Equity": 0.97,
+        "Return on Equity": -99.49
+    },
+    "26": {
+        "Date": "2015-12-31",
+        "TTM Net Income": -0.89,
+        "Shareholder's Equity": 1.08,
+        "Return on Equity": -90.13
+    },
+    "27": {
+        "Date": "2015-09-30",
+        "TTM Net Income": -0.68,
+        "Shareholder's Equity": 1.32,
+        "Return on Equity": -71.74
+    },
+    "28": {
+        "Date": "2015-06-30",
+        "TTM Net Income": -0.52,
+        "Shareholder's Equity": 0.72,
+        "Return on Equity": -61.08
+    },
+    "29": {
+        "Date": "2015-03-31",
+        "TTM Net Income": -0.4,
+        "Shareholder's Equity": 0.83,
+        "Return on Equity": -43.75
+    },
+    "30": {
+        "Date": "2014-12-31",
+        "TTM Net Income": -0.3,
+        "Shareholder's Equity": 0.91,
+        "Return on Equity": -31.6
+    },
+    "31": {
+        "Date": "2014-09-30",
+        "TTM Net Income": -0.2,
+        "Shareholder's Equity": 0.96,
+        "Return on Equity": -23.27
+    },
+    "32": {
+        "Date": "2014-06-30",
+        "TTM Net Income": -0.17,
+        "Shareholder's Equity": 0.95,
+        "Return on Equity": -21.45
+    },
+    "33": {
+        "Date": "2014-03-31",
+        "TTM Net Income": -0.14,
+        "Shareholder's Equity": 0.91,
+        "Return on Equity": -19.48
+    },
+    "34": {
+        "Date": "2013-12-31",
+        "TTM Net Income": -0.07,
+        "Shareholder's Equity": 0.67,
+        "Return on Equity": -14.59
+    },
+    "35": {
+        "Date": "2013-09-30",
+        "TTM Net Income": -0.15,
+        "Shareholder's Equity": 0.56,
+        "Return on Equity": -39.81
+    },
+    "36": {
+        "Date": "2013-06-30",
+        "TTM Net Income": -0.22,
+        "Shareholder's Equity": 0.63,
+        "Return on Equity": -98.77
+    },
+    "37": {
+        "Date": "2013-03-31",
+        "TTM Net Income": -0.3,
+        "Shareholder's Equity": 0.17,
+        "Return on Equity": -360.98
+    },
+    "38": {
+        "Date": "2012-12-31",
+        "TTM Net Income": -0.4,
+        "Shareholder's Equity": 0.13,
+        "Return on Equity": -507.35
+    },
+    "39": {
+        "Date": "2012-09-30",
+        "TTM Net Income": -0.39,
+        "Shareholder's Equity": -0.03,
+        "Return on Equity": -376.7
+    },
+    "40": {
+        "Date": "2012-06-30",
+        "TTM Net Income": -0.34,
+        "Shareholder's Equity": 0.06,
+        "Return on Equity": -186.38
+    },
+    "41": {
+        "Date": "2012-03-31",
+        "TTM Net Income": -0.3,
+        "Shareholder's Equity": 0.15,
+        "Return on Equity": -115.69
+    },
+    "42": {
+        "Date": "2011-12-31",
+        "TTM Net Income": -0.25,
+        "Shareholder's Equity": 0.22,
+        "Return on Equity": -98.26
+    },
+    "43": {
+        "Date": "2011-09-30",
+        "TTM Net Income": -0.22,
+        "Shareholder's Equity": 0.29,
+        "Return on Equity": -88.1
+    },
+    "44": {
+        "Date": "2011-06-30",
+        "TTM Net Income": -0.19,
+        "Shareholder's Equity": 0.35,
+        "Return on Equity": -82.29
+    },
+    "45": {
+        "Date": "2011-03-31",
+        "TTM Net Income": -0.17,
+        "Shareholder's Equity": 0.17,
+        "Return on Equity": -244.21
+    },
+    "46": {
+        "Date": "2010-12-31",
+        "TTM Net Income": -0.16,
+        "Shareholder's Equity": 0.21,
+        "Return on Equity": -529.91
+    },
+    "47": {
+        "Date": "2010-06-30",
+        "TTM Net Income": -0.07,
+        "Shareholder's Equity": -0.31,
+        "Return on Equity": 95.48
+    },
+    "48": {
+        "Date": "2010-03-31",
+        "TTM Net Income": -0.05,
+        "Shareholder's Equity": 0.0,
+        "Return on Equity": null
+    }
+}

@@ -1,0 +1,226 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.9
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    python_version: 3.8.10
+    start_time: 1665844020
+    t:
+      1:
+      - 1
+      - 9
+      2:
+      - 1
+      - 3
+      - 9
+      3:
+      - 1
+      - 7
+      - 15
+      4: 3.8.10
+      5: 0.12.9
+      8:
+      - 3
+      - 8
+core/tags:
+  desc: null
+  value:
+  - mytag
+core/version:
+  desc: null
+  value: 0.0.1
+data/datamodule/_target_:
+  desc: null
+  value: src.pl_data.datamodule.MyDataModule
+data/datamodule/batch_size/test:
+  desc: null
+  value: 1
+data/datamodule/batch_size/train:
+  desc: null
+  value: 1
+data/datamodule/batch_size/val:
+  desc: null
+  value: 1
+data/datamodule/datasets/test:
+  desc: null
+  value:
+  - _target_: src.pl_data.dataset.MyDataset
+    context: test
+    name: YourTestDatasetName
+    path: C:/Users/mvisc/Desktop/Appunti/Deep Learning/progetto/S-LSTM-Stock-Prices-Forecasting/data/test
+data/datamodule/datasets/train/_target_:
+  desc: null
+  value: src.pl_data.dataset.MyDataset
+data/datamodule/datasets/train/context:
+  desc: null
+  value: train
+data/datamodule/datasets/train/name:
+  desc: null
+  value: YourTrainDatasetName
+data/datamodule/datasets/train/path:
+  desc: null
+  value: C:/Users/mvisc/Desktop/Appunti/Deep Learning/progetto/S-LSTM-Stock-Prices-Forecasting/data/train
+data/datamodule/datasets/val:
+  desc: null
+  value:
+  - _target_: src.pl_data.dataset.MyDataset
+    context: val
+    name: YourValDatasetName
+    path: C:/Users/mvisc/Desktop/Appunti/Deep Learning/progetto/S-LSTM-Stock-Prices-Forecasting/data/val
+data/datamodule/num_workers/test:
+  desc: null
+  value: 1
+data/datamodule/num_workers/train:
+  desc: null
+  value: 1
+data/datamodule/num_workers/val:
+  desc: null
+  value: 1
+logging/lr_monitor/log_momentum:
+  desc: null
+  value: false
+logging/lr_monitor/logging_interval:
+  desc: null
+  value: step
+logging/progress_bar_refresh_rate:
+  desc: null
+  value: 20
+logging/val_check_interval:
+  desc: null
+  value: 1.0
+logging/wandb/entity:
+  desc: null
+  value: None
+logging/wandb/log_model:
+  desc: null
+  value: true
+logging/wandb/mode:
+  desc: null
+  value: online
+logging/wandb/project:
+  desc: null
+  value: nn-template
+logging/wandb_watch/log:
+  desc: null
+  value: all
+logging/wandb_watch/log_freq:
+  desc: null
+  value: 100
+model/_target_:
+  desc: null
+  value: src.pl_modules.model.MyModel
+model/dropout_prob:
+  desc: null
+  value: 0.2
+model/hidden_dim:
+  desc: null
+  value: 12
+model/input_dim:
+  desc: null
+  value: 8
+model/look_back:
+  desc: null
+  value: 30
+model/num_layers:
+  desc: null
+  value: 1
+optim/lr_scheduler/T_0:
+  desc: null
+  value: 10
+optim/lr_scheduler/T_mult:
+  desc: null
+  value: 2
+optim/lr_scheduler/_target_:
+  desc: null
+  value: torch.optim.lr_scheduler.CosineAnnealingWarmRestarts
+optim/lr_scheduler/eta_min:
+  desc: null
+  value: 0
+optim/lr_scheduler/last_epoch:
+  desc: null
+  value: -1
+optim/lr_scheduler/verbose:
+  desc: null
+  value: true
+optim/optimizer/_target_:
+  desc: null
+  value: torch.optim.Adam
+optim/optimizer/betas:
+  desc: null
+  value:
+  - 0.9
+  - 0.999
+optim/optimizer/eps:
+  desc: null
+  value: 1.0e-08
+optim/optimizer/lr:
+  desc: null
+  value: 0.001
+optim/optimizer/weight_decay:
+  desc: null
+  value: 0
+optim/use_lr_scheduler:
+  desc: null
+  value: true
+stats/params_not_trainable:
+  desc: null
+  value: 0
+stats/params_total:
+  desc: null
+  value: 1429
+stats/params_trainable:
+  desc: null
+  value: 1429
+train/deterministic:
+  desc: null
+  value: false
+train/early_stopping/patience:
+  desc: null
+  value: 42
+train/early_stopping/verbose:
+  desc: null
+  value: false
+train/model_checkpoints/save_top_k:
+  desc: null
+  value: 2
+train/model_checkpoints/verbose:
+  desc: null
+  value: false
+train/monitor_metric:
+  desc: null
+  value: val_loss
+train/monitor_metric_mode:
+  desc: null
+  value: min
+train/pl_trainer/accumulate_grad_batches:
+  desc: null
+  value: 1
+train/pl_trainer/fast_dev_run:
+  desc: null
+  value: false
+train/pl_trainer/gpus:
+  desc: null
+  value: 1
+train/pl_trainer/gradient_clip_val:
+  desc: null
+  value: 10.0
+train/pl_trainer/max_steps:
+  desc: null
+  value: 10000
+train/pl_trainer/num_sanity_val_steps:
+  desc: null
+  value: 2
+train/pl_trainer/precision:
+  desc: null
+  value: 32
+train/random_seed:
+  desc: null
+  value: 42

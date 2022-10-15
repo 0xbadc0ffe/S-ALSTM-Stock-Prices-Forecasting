@@ -1,0 +1,326 @@
+{
+    "0": {
+        "Date": "2022-06-30",
+        "Long Term Debt": 101.37,
+        "Shareholder's Equity": 76.36,
+        "Debt to Equity Ratio": 1.33
+    },
+    "1": {
+        "Date": "2022-03-31",
+        "Long Term Debt": 103.65,
+        "Shareholder's Equity": 74.71,
+        "Debt to Equity Ratio": 1.39
+    },
+    "2": {
+        "Date": "2021-12-31",
+        "Long Term Debt": 108.0,
+        "Shareholder's Equity": 74.02,
+        "Debt to Equity Ratio": 1.46
+    },
+    "3": {
+        "Date": "2021-09-30",
+        "Long Term Debt": 108.96,
+        "Shareholder's Equity": 70.27,
+        "Debt to Equity Ratio": 1.55
+    },
+    "4": {
+        "Date": "2021-06-30",
+        "Long Term Debt": 106.86,
+        "Shareholder's Equity": 69.58,
+        "Debt to Equity Ratio": 1.54
+    },
+    "5": {
+        "Date": "2021-03-31",
+        "Long Term Debt": 106.72,
+        "Shareholder's Equity": 65.83,
+        "Debt to Equity Ratio": 1.62
+    },
+    "6": {
+        "Date": "2020-12-31",
+        "Long Term Debt": 111.62,
+        "Shareholder's Equity": 63.28,
+        "Debt to Equity Ratio": 1.76
+    },
+    "7": {
+        "Date": "2020-09-30",
+        "Long Term Debt": 106.22,
+        "Shareholder's Equity": 64.47,
+        "Debt to Equity Ratio": 1.65
+    },
+    "8": {
+        "Date": "2020-06-30",
+        "Long Term Debt": 95.4,
+        "Shareholder's Equity": 62.98,
+        "Debt to Equity Ratio": 1.52
+    },
+    "9": {
+        "Date": "2020-03-31",
+        "Long Term Debt": 93.72,
+        "Shareholder's Equity": 61.29,
+        "Debt to Equity Ratio": 1.53
+    },
+    "10": {
+        "Date": "2019-12-31",
+        "Long Term Debt": 98.26,
+        "Shareholder's Equity": 59.47,
+        "Debt to Equity Ratio": 1.65
+    },
+    "11": {
+        "Date": "2019-09-30",
+        "Long Term Debt": 97.31,
+        "Shareholder's Equity": 58.21,
+        "Debt to Equity Ratio": 1.67
+    },
+    "12": {
+        "Date": "2019-06-30",
+        "Long Term Debt": 94.33,
+        "Shareholder's Equity": 60.79,
+        "Debt to Equity Ratio": 1.55
+    },
+    "13": {
+        "Date": "2019-03-31",
+        "Long Term Debt": 91.07,
+        "Shareholder's Equity": 58.96,
+        "Debt to Equity Ratio": 1.55
+    },
+    "14": {
+        "Date": "2018-12-31",
+        "Long Term Debt": 93.2,
+        "Shareholder's Equity": 59.75,
+        "Debt to Equity Ratio": 1.56
+    },
+    "15": {
+        "Date": "2018-09-30",
+        "Long Term Debt": 91.08,
+        "Shareholder's Equity": 64.63,
+        "Debt to Equity Ratio": 1.41
+    },
+    "16": {
+        "Date": "2018-06-30",
+        "Long Term Debt": 92.48,
+        "Shareholder's Equity": 62.89,
+        "Debt to Equity Ratio": 1.47
+    },
+    "17": {
+        "Date": "2018-03-31",
+        "Long Term Debt": 93.37,
+        "Shareholder's Equity": 63.26,
+        "Debt to Equity Ratio": 1.48
+    },
+    "18": {
+        "Date": "2017-12-31",
+        "Long Term Debt": 97.14,
+        "Shareholder's Equity": 60.16,
+        "Debt to Equity Ratio": 1.62
+    },
+    "19": {
+        "Date": "2017-09-30",
+        "Long Term Debt": 81.68,
+        "Shareholder's Equity": 73.98,
+        "Debt to Equity Ratio": 1.1
+    },
+    "20": {
+        "Date": "2017-06-30",
+        "Long Term Debt": 80.89,
+        "Shareholder's Equity": 71.92,
+        "Debt to Equity Ratio": 1.13
+    },
+    "21": {
+        "Date": "2017-03-31",
+        "Long Term Debt": 74.58,
+        "Shareholder's Equity": 70.34,
+        "Debt to Equity Ratio": 1.06
+    },
+    "22": {
+        "Date": "2016-12-31",
+        "Long Term Debt": 70.79,
+        "Shareholder's Equity": 70.42,
+        "Debt to Equity Ratio": 1.01
+    },
+    "23": {
+        "Date": "2016-09-30",
+        "Long Term Debt": 67.6,
+        "Shareholder's Equity": 72.77,
+        "Debt to Equity Ratio": 0.93
+    },
+    "24": {
+        "Date": "2016-06-30",
+        "Long Term Debt": 67.34,
+        "Shareholder's Equity": 72.47,
+        "Debt to Equity Ratio": 0.93
+    },
+    "25": {
+        "Date": "2016-03-31",
+        "Long Term Debt": 63.58,
+        "Shareholder's Equity": 72.65,
+        "Debt to Equity Ratio": 0.88
+    },
+    "26": {
+        "Date": "2015-12-31",
+        "Long Term Debt": 62.26,
+        "Shareholder's Equity": 71.15,
+        "Debt to Equity Ratio": 0.88
+    },
+    "27": {
+        "Date": "2015-09-30",
+        "Long Term Debt": 61.71,
+        "Shareholder's Equity": 71.55,
+        "Debt to Equity Ratio": 0.86
+    },
+    "28": {
+        "Date": "2015-06-30",
+        "Long Term Debt": 60.91,
+        "Shareholder's Equity": 71.13,
+        "Debt to Equity Ratio": 0.86
+    },
+    "29": {
+        "Date": "2015-03-31",
+        "Long Term Debt": 60.71,
+        "Shareholder's Equity": 67.88,
+        "Debt to Equity Ratio": 0.89
+    },
+    "30": {
+        "Date": "2014-12-31",
+        "Long Term Debt": 60.61,
+        "Shareholder's Equity": 69.75,
+        "Debt to Equity Ratio": 0.87
+    },
+    "31": {
+        "Date": "2014-09-30",
+        "Long Term Debt": 55.51,
+        "Shareholder's Equity": 76.59,
+        "Debt to Equity Ratio": 0.73
+    },
+    "32": {
+        "Date": "2014-06-30",
+        "Long Term Debt": 57.15,
+        "Shareholder's Equity": 78.05,
+        "Debt to Equity Ratio": 0.73
+    },
+    "33": {
+        "Date": "2014-03-31",
+        "Long Term Debt": 56.75,
+        "Shareholder's Equity": 76.58,
+        "Debt to Equity Ratio": 0.74
+    },
+    "34": {
+        "Date": "2013-12-31",
+        "Long Term Debt": 58.63,
+        "Shareholder's Equity": 74.05,
+        "Debt to Equity Ratio": 0.79
+    },
+    "35": {
+        "Date": "2013-09-30",
+        "Long Term Debt": 57.13,
+        "Shareholder's Equity": 69.8,
+        "Debt to Equity Ratio": 0.82
+    },
+    "36": {
+        "Date": "2013-06-30",
+        "Long Term Debt": 54.66,
+        "Shareholder's Equity": 69.67,
+        "Debt to Equity Ratio": 0.79
+    },
+    "37": {
+        "Date": "2013-03-31",
+        "Long Term Debt": 54.68,
+        "Shareholder's Equity": 66.86,
+        "Debt to Equity Ratio": 0.82
+    },
+    "38": {
+        "Date": "2012-12-31",
+        "Long Term Debt": 56.52,
+        "Shareholder's Equity": 64.83,
+        "Debt to Equity Ratio": 0.87
+    },
+    "39": {
+        "Date": "2012-09-30",
+        "Long Term Debt": 55.19,
+        "Shareholder's Equity": 63.76,
+        "Debt to Equity Ratio": 0.87
+    },
+    "40": {
+        "Date": "2012-06-30",
+        "Long Term Debt": 55.32,
+        "Shareholder's Equity": 60.43,
+        "Debt to Equity Ratio": 0.92
+    },
+    "41": {
+        "Date": "2012-03-31",
+        "Long Term Debt": 54.83,
+        "Shareholder's Equity": 61.37,
+        "Debt to Equity Ratio": 0.89
+    },
+    "42": {
+        "Date": "2011-12-31",
+        "Long Term Debt": 56.56,
+        "Shareholder's Equity": 57.08,
+        "Debt to Equity Ratio": 0.99
+    },
+    "43": {
+        "Date": "2011-09-30",
+        "Long Term Debt": 50.29,
+        "Shareholder's Equity": 61.53,
+        "Debt to Equity Ratio": 0.82
+    },
+    "44": {
+        "Date": "2011-06-30",
+        "Long Term Debt": 49.98,
+        "Shareholder's Equity": 62.13,
+        "Debt to Equity Ratio": 0.8
+    },
+    "45": {
+        "Date": "2011-03-31",
+        "Long Term Debt": 48.29,
+        "Shareholder's Equity": 59.86,
+        "Debt to Equity Ratio": 0.81
+    },
+    "46": {
+        "Date": "2010-12-31",
+        "Long Term Debt": 46.33,
+        "Shareholder's Equity": 56.58,
+        "Debt to Equity Ratio": 0.82
+    },
+    "47": {
+        "Date": "2010-09-30",
+        "Long Term Debt": 40.96,
+        "Shareholder's Equity": 57.29,
+        "Debt to Equity Ratio": 0.72
+    },
+    "48": {
+        "Date": "2010-06-30",
+        "Long Term Debt": 39.45,
+        "Shareholder's Equity": 52.85,
+        "Debt to Equity Ratio": 0.75
+    },
+    "49": {
+        "Date": "2010-03-31",
+        "Long Term Debt": 40.53,
+        "Shareholder's Equity": 52.91,
+        "Debt to Equity Ratio": 0.77
+    },
+    "50": {
+        "Date": "2009-12-31",
+        "Long Term Debt": 44.09,
+        "Shareholder's Equity": 50.59,
+        "Debt to Equity Ratio": 0.87
+    },
+    "51": {
+        "Date": "2009-09-30",
+        "Long Term Debt": 41.17,
+        "Shareholder's Equity": 50.38,
+        "Debt to Equity Ratio": 0.82
+    },
+    "52": {
+        "Date": "2009-06-30",
+        "Long Term Debt": 41.19,
+        "Shareholder's Equity": 46.25,
+        "Debt to Equity Ratio": 0.89
+    },
+    "53": {
+        "Date": "2009-03-31",
+        "Long Term Debt": 42.31,
+        "Shareholder's Equity": 43.79,
+        "Debt to Equity Ratio": 0.97
+    }
+}

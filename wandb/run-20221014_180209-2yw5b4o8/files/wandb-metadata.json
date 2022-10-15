@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-10-14T16:02:12.383993",
+    "startedAt": "2022-10-14T16:02:09.640947",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\mvisc\\Desktop\\Appunti\\Deep Learning\\progetto\\S-LSTM-Stock-Prices-Forecasting\\src\\run.py",
+    "codePath": "src\\run.py",
+    "git": {
+        "remote": "https://github.com/0xbadc0ffe/S-LSTM-Stock-Prices-Forecasting",
+        "commit": "e7fed42f93f224b45fd8860d70ae19a4636362fd"
+    },
+    "email": "m.viscione98@gmail.com",
+    "root": "C:/Users/mvisc/Desktop/Appunti/Deep Learning/progetto/S-LSTM-Stock-Prices-Forecasting",
+    "host": "LAPTOP-MAJJJ55T",
+    "username": "mvisc",
+    "executable": "C:\\Users\\mvisc\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\\python.exe"
+}

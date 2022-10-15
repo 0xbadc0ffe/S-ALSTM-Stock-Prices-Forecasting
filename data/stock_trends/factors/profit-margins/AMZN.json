@@ -1,0 +1,308 @@
+{
+    "0": {
+        "Date": 1262217600000,
+        "TTM Gross Margin": 22.57,
+        "TTM Net Margin": 4.61,
+        "TTM Operating Margin": 3.68
+    },
+    "1": {
+        "Date": 1269993600000,
+        "TTM Gross Margin": 22.48,
+        "TTM Net Margin": 4.78,
+        "TTM Operating Margin": 3.83
+    },
+    "2": {
+        "Date": 1277856000000,
+        "TTM Gross Margin": 22.64,
+        "TTM Net Margin": 4.85,
+        "TTM Operating Margin": 3.8
+    },
+    "3": {
+        "Date": 1285804800000,
+        "TTM Gross Margin": 22.71,
+        "TTM Net Margin": 4.57,
+        "TTM Operating Margin": 3.64
+    },
+    "4": {
+        "Date": 1293753600000,
+        "TTM Gross Margin": 22.35,
+        "TTM Net Margin": 4.11,
+        "TTM Operating Margin": 3.37
+    },
+    "5": {
+        "Date": 1301529600000,
+        "TTM Gross Margin": 22.37,
+        "TTM Net Margin": 3.61,
+        "TTM Operating Margin": 2.85
+    },
+    "6": {
+        "Date": 1309392000000,
+        "TTM Gross Margin": 22.45,
+        "TTM Net Margin": 3.14,
+        "TTM Operating Margin": 2.58
+    },
+    "7": {
+        "Date": 1317340800000,
+        "TTM Gross Margin": 22.52,
+        "TTM Net Margin": 2.47,
+        "TTM Operating Margin": 2.0
+    },
+    "8": {
+        "Date": 1325289600000,
+        "TTM Gross Margin": 22.44,
+        "TTM Net Margin": 1.79,
+        "TTM Operating Margin": 1.31
+    },
+    "9": {
+        "Date": 1333152000000,
+        "TTM Gross Margin": 22.76,
+        "TTM Net Margin": 1.42,
+        "TTM Operating Margin": 1.09
+    },
+    "10": {
+        "Date": 1341014400000,
+        "TTM Gross Margin": 23.3,
+        "TTM Net Margin": 1.17,
+        "TTM Operating Margin": 0.69
+    },
+    "11": {
+        "Date": 1348963200000,
+        "TTM Gross Margin": 23.74,
+        "TTM Net Margin": 0.93,
+        "TTM Operating Margin": 0.07
+    },
+    "12": {
+        "Date": 1356912000000,
+        "TTM Gross Margin": 24.75,
+        "TTM Net Margin": 1.11,
+        "TTM Operating Margin": -0.06
+    },
+    "13": {
+        "Date": 1364688000000,
+        "TTM Gross Margin": 25.37,
+        "TTM Net Margin": 1.04,
+        "TTM Operating Margin": -0.14
+    },
+    "14": {
+        "Date": 1372550400000,
+        "TTM Gross Margin": 26.0,
+        "TTM Net Margin": 0.95,
+        "TTM Operating Margin": -0.15
+    },
+    "15": {
+        "Date": 1380499200000,
+        "TTM Gross Margin": 26.55,
+        "TTM Net Margin": 0.91,
+        "TTM Operating Margin": 0.19
+    },
+    "16": {
+        "Date": 1388448000000,
+        "TTM Gross Margin": 27.23,
+        "TTM Net Margin": 1.0,
+        "TTM Operating Margin": 0.37
+    },
+    "17": {
+        "Date": 1396224000000,
+        "TTM Gross Margin": 27.76,
+        "TTM Net Margin": 0.91,
+        "TTM Operating Margin": 0.38
+    },
+    "18": {
+        "Date": 1404086400000,
+        "TTM Gross Margin": 28.3,
+        "TTM Net Margin": 0.75,
+        "TTM Operating Margin": 0.22
+    },
+    "19": {
+        "Date": 1412035200000,
+        "TTM Gross Margin": 28.58,
+        "TTM Net Margin": 0.11,
+        "TTM Operating Margin": -0.25
+    },
+    "20": {
+        "Date": 1419984000000,
+        "TTM Gross Margin": 29.48,
+        "TTM Net Margin": 0.2,
+        "TTM Operating Margin": -0.27
+    },
+    "21": {
+        "Date": 1427760000000,
+        "TTM Gross Margin": 30.31,
+        "TTM Net Margin": 0.31,
+        "TTM Operating Margin": -0.44
+    },
+    "22": {
+        "Date": 1435622400000,
+        "TTM Gross Margin": 31.27,
+        "TTM Net Margin": 0.8,
+        "TTM Operating Margin": -0.2
+    },
+    "23": {
+        "Date": 1443571200000,
+        "TTM Gross Margin": 32.42,
+        "TTM Net Margin": 1.71,
+        "TTM Operating Margin": 0.33
+    },
+    "24": {
+        "Date": 1451520000000,
+        "TTM Gross Margin": 33.04,
+        "TTM Net Margin": 2.09,
+        "TTM Operating Margin": 0.56
+    },
+    "25": {
+        "Date": 1459382400000,
+        "TTM Gross Margin": 33.76,
+        "TTM Net Margin": 2.69,
+        "TTM Operating Margin": 1.03
+    },
+    "26": {
+        "Date": 1467244800000,
+        "TTM Gross Margin": 34.4,
+        "TTM Net Margin": 3.21,
+        "TTM Operating Margin": 1.6
+    },
+    "27": {
+        "Date": 1475193600000,
+        "TTM Gross Margin": 34.65,
+        "TTM Net Margin": 3.16,
+        "TTM Operating Margin": 1.64
+    },
+    "28": {
+        "Date": 1483142400000,
+        "TTM Gross Margin": 35.09,
+        "TTM Net Margin": 3.08,
+        "TTM Operating Margin": 1.74
+    },
+    "29": {
+        "Date": 1490918400000,
+        "TTM Gross Margin": 35.58,
+        "TTM Net Margin": 2.89,
+        "TTM Operating Margin": 1.81
+    },
+    "30": {
+        "Date": 1498780800000,
+        "TTM Gross Margin": 35.98,
+        "TTM Net Margin": 2.31,
+        "TTM Operating Margin": 1.28
+    },
+    "31": {
+        "Date": 1506729600000,
+        "TTM Gross Margin": 36.46,
+        "TTM Net Margin": 2.01,
+        "TTM Operating Margin": 1.2
+    },
+    "32": {
+        "Date": 1514678400000,
+        "TTM Gross Margin": 37.07,
+        "TTM Net Margin": 2.31,
+        "TTM Operating Margin": 1.71
+    },
+    "33": {
+        "Date": 1522454400000,
+        "TTM Gross Margin": 37.77,
+        "TTM Net Margin": 2.6,
+        "TTM Operating Margin": 2.04
+    },
+    "34": {
+        "Date": 1530316800000,
+        "TTM Gross Margin": 38.78,
+        "TTM Net Margin": 3.55,
+        "TTM Operating Margin": 3.02
+    },
+    "35": {
+        "Date": 1538265600000,
+        "TTM Gross Margin": 39.87,
+        "TTM Net Margin": 4.87,
+        "TTM Operating Margin": 4.03
+    },
+    "36": {
+        "Date": 1546214400000,
+        "TTM Gross Margin": 40.25,
+        "TTM Net Margin": 5.33,
+        "TTM Operating Margin": 4.33
+    },
+    "37": {
+        "Date": 1553990400000,
+        "TTM Gross Margin": 41.07,
+        "TTM Net Margin": 6.17,
+        "TTM Operating Margin": 4.97
+    },
+    "38": {
+        "Date": 1561852800000,
+        "TTM Gross Margin": 41.27,
+        "TTM Net Margin": 5.96,
+        "TTM Operating Margin": 4.8
+    },
+    "39": {
+        "Date": 1569801600000,
+        "TTM Gross Margin": 41.11,
+        "TTM Net Margin": 5.44,
+        "TTM Operating Margin": 4.27
+    },
+    "40": {
+        "Date": 1577750400000,
+        "TTM Gross Margin": 40.99,
+        "TTM Net Margin": 5.18,
+        "TTM Operating Margin": 4.13
+    },
+    "41": {
+        "Date": 1585612800000,
+        "TTM Gross Margin": 40.64,
+        "TTM Net Margin": 4.76,
+        "TTM Operating Margin": 3.56
+    },
+    "42": {
+        "Date": 1593475200000,
+        "TTM Gross Margin": 40.27,
+        "TTM Net Margin": 5.24,
+        "TTM Operating Margin": 4.1
+    },
+    "43": {
+        "Date": 1601424000000,
+        "TTM Gross Margin": 40.22,
+        "TTM Net Margin": 5.72,
+        "TTM Operating Margin": 4.99
+    },
+    "44": {
+        "Date": 1609372800000,
+        "TTM Gross Margin": 39.57,
+        "TTM Net Margin": 5.93,
+        "TTM Operating Margin": 5.53
+    },
+    "45": {
+        "Date": 1617148800000,
+        "TTM Gross Margin": 40.01,
+        "TTM Net Margin": 6.63,
+        "TTM Operating Margin": 6.42
+    },
+    "46": {
+        "Date": 1625011200000,
+        "TTM Gross Margin": 40.68,
+        "TTM Net Margin": 6.68,
+        "TTM Operating Margin": 6.64
+    },
+    "47": {
+        "Date": 1632960000000,
+        "TTM Gross Margin": 41.31,
+        "TTM Net Margin": 6.18,
+        "TTM Operating Margin": 5.73
+    },
+    "48": {
+        "Date": 1640908800000,
+        "TTM Gross Margin": 42.03,
+        "TTM Net Margin": 5.3,
+        "TTM Operating Margin": 7.1
+    },
+    "49": {
+        "Date": 1648684800000,
+        "TTM Gross Margin": 42.14,
+        "TTM Net Margin": 4.12,
+        "TTM Operating Margin": 4.48
+    },
+    "50": {
+        "Date": 1656547200000,
+        "TTM Gross Margin": 42.65,
+        "TTM Net Margin": 3.15,
+        "TTM Operating Margin": 2.39
+    }
+}

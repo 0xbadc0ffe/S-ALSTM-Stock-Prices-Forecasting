@@ -8,6 +8,7 @@ import pytorch_lightning as pl
 import torch
 from omegaconf import DictConfig
 from torch.utils.data import DataLoader, Dataset
+from tqdm import tqdm
 
 from src.common.utils import PROJECT_ROOT
 
@@ -112,7 +113,6 @@ def main(cfg: omegaconf.DictConfig):
     datamodule: pl.LightningDataModule = hydra.utils.instantiate(
         cfg.data.datamodule, _recursive_=False
     )
-
 
 if __name__ == "__main__":
     main()
