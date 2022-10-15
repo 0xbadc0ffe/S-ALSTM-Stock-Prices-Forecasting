@@ -1,5 +1,13 @@
 Stochastic Attention Based LSTM for Stock prices Forecasting.
 
+
+
+
+<p align="center">
+  <img src="imgs/SALSTM.drawio.png"  width="600" title="Model Architecture" />
+</p>
+
+
 # Structure
 
 ```bash
