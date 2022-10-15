@@ -1,12 +1,22 @@
 # Stochastic Attention Based LSTM for Stock prices Forecasting.
 
 ## Architecture
-Hereafter it is shown the model architecture.
+This model is based on daily traiding and it never keeps a position overnight. Hereafter it is shown the model architecture.
 
 <p align="center">
   <img src="imgs/SALSTM.drawio.png"  width="600" title="Model Architecture" />
 </p>
 
+
+
+
+## Metrics
+
+The model considers fees (by default 0.1%) on both buying and selling positions. The PPM is the profitability performance measure that clarify when the model, net of fees, is more profitable of the buy&hold strategy. If PPM>1 the model is therefore useful. In particular, the next figure shows the PPM of two buy-policies on a test dataset at training time.
+
+<p align="center">
+  <img src="imgs/ppm.png"  width="500" title="PPM" />
+</p>
 
 
 ## Features
