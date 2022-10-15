@@ -15,7 +15,7 @@ This model is based on daily traiding and it never keeps a position overnight. H
 The model considers fees (by default 0.1%) on both buying and selling positions. The PPM is the profitability performance measure that clarify when the model, net of fees, is more profitable of the buy&hold strategy. If PPM>1 the model is therefore useful. In particular, the next figure shows the PPM of two buy-policies on a test dataset at training time.
 
 <p align="center">
-  <img src="imgs/ppm.png"  width="500" title="PPM" />
+  <img src="imgs/ppm.png"  width="600" title="PPM" />
 </p>
 
 
