@@ -1,7 +1,7 @@
 # Stochastic Attention Based LSTM for Stock prices Forecasting.
 
 ## Architecture
-This model is based on daily traiding and it never keeps a position overnight. Hereafter it is shown the model architecture.
+This model is trained for daily trading and it never keeps a position overnight. Hereafter it is shown the model architecture.
 
 <p align="center">
   <img src="imgs/SALSTM.drawio.png"  width="600" title="Model Architecture" />
